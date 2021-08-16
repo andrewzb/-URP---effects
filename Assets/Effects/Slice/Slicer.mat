@@ -9,7 +9,7 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: Slicer
   m_Shader: {fileID: 4800000, guid: e1caef0310a84794cb9125a128f0bc91, type: 3}
-  m_ShaderKeywords: 
+  m_ShaderKeywords: _USECOLOR_ON
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 1
   m_DoubleSidedGI: 0
@@ -30,7 +30,9 @@ Material:
     m_Floats:
     - _AlphaCutoff: 0.5
     - _SliceStage: 0.677
+    - _UseColor: 1
     m_Colors:
+    - _AlbedoColor: {r: 1, g: 0, b: 0, a: 0}
     - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
     - _MinMax: {r: -1, g: 1, b: 0, a: 0}
     - _V3SliceLocalDirection: {r: 0, g: 1, b: 0, a: 0}
